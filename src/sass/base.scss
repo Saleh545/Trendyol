@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap');
+
+// Base Settings
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+    text-decoration: none !important;
+    list-style: none !important;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+// Base Container
+.container {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+  }
