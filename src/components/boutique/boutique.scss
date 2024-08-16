@@ -1,0 +1,33 @@
+.boutique-list-landings-container{
+
+.boutique-list-landings-container h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+.boutique-list-landings {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    gap: 10px;
+
+    .landings {
+        display: flex;
+    
+        a {
+            font-size: 14px;
+            color: #333;
+            padding: 10px 20px;
+            border: 1px solid #e6e6e6;
+            border-radius: 20px;
+        &:hover {
+            color: #F27A1A;
+            border-color: #F27A1A;
+            transition: color 0.3s ease, border-color 0.3s ease;
+        }
+        }
+    }
+}
+
+
+}

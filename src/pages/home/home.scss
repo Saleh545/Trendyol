@@ -1,5 +1,16 @@
 .homepage-wrapper {
   margin: 15px auto 0 auto;
+
+
+
+  .item{
+    &:hover span{
+      color: #f28232;
+  }
+  &:hover img  {
+    border-color: #f28232;
+}
+  }
   .item img {
     border: 1px solid #e6e6e6;
     border-radius: 50%;
@@ -21,6 +32,7 @@
     line-height: 14px;
     height: 42px;
     width: 74px;
+    
   }
   .slick-dots{
     display: none !important;
@@ -50,6 +62,35 @@
         width: 100%;
         height: auto;
         border-radius: 6px;
+     
     }
 }
 }
+  #browsing-gw-homepage{
+ .component-item {
+      width: 33.33%;
+      padding: 0 12.5px;
+      box-sizing: border-box;
+      height: fit-content;
+      margin-bottom: 25px;
+      &:hover  img {
+        transform: scale(1.015);
+    }
+     .widget {
+          display: block;
+        border-radius: 8px;
+        overflow: hidden;
+
+     img {
+          width: 100%;
+          display: block;
+          position: relative;
+          transition: transform 1s ease;
+      }
+    }
+  }
+  .hover-img{
+    display: flex;
+    align-items: center;
+  }
+  }

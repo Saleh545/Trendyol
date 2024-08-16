@@ -1,0 +1,31 @@
+.boutique-list-seo-content-wrapper {
+    margin: 50px auto 0 auto;
+    display: block;
+    width: 1200px;
+    padding: 30px 15px 0 15px;
+    z-index: 10 !important;
+    min-height: 200px;
+    line-height: 24px;
+    border-top: 1px solid #d4d4d4;
+    background-color: #fff;
+    color: #333;
+
+    .boutique-list-seo-content-title h2 {
+        height: 25px;
+        line-height: 25px;
+        font-size: 23px;
+        color: #333;
+        margin-bottom: 10px;
+    }
+    .boutique-list-seo-content-image {
+        font-size: 13px;
+        h3{
+            font-size: 100%;
+            font-weight: 400;
+        }
+        a{
+            color: #1b1b1b;
+        }
+    }
+
+}

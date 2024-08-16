@@ -1,0 +1,58 @@
+.component-item {
+  .flas-image {
+    background-image: url("https://cdn.dsmcdn.com/web/background/Homepage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .widget-none {
+      .colorful {
+        color: #fff !important;
+        &:hover {
+          border-radius: 20px !important;
+          background: rgba(255, 255, 255, 0.2) !important;
+        }
+        svg {
+          color: #fff !important;
+        }
+      }
+    }
+
+    .colorfull {
+      margin-right: 20px;
+      font-size: 22px !important;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 20px;
+      align-items: center;
+      display: flex;
+      gap: 4px;
+      color: #fff !important;
+    }
+  }
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  font-family: "Arial", sans-serif;
+  color: #333;
+  .time-dots {
+    color: #fff !important;
+    margin: 0 5px;
+    padding: 0 !important;
+  }
+  .time-value {
+    font-weight: bold;
+    font-size: 16px !important;
+    padding: 0 !important;
+    background-color: #fff !important;
+    border-radius: 4px;
+    padding: 5px 8px !important;
+  }
+  
+  .time-label {
+    font-size: 1rem;
+    color: #666;
+  }
+}

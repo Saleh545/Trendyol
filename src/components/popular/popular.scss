@@ -1,0 +1,268 @@
+.component-item {
+  padding: 0 12.5px;
+  box-sizing: border-box;
+  height: fit-content;
+  margin-bottom: 25px;
+
+  .widget-width {
+    width: 100% !important;
+}
+  .extended-container {
+    padding: 20px 0px 0px 0px;
+    border-radius: 8px;
+background-image: url("https://cdn.dsmcdn.com/marketing/datascience/automation/2024/5/29/ProductSliderBg_202405291606.png");    height: 491px;
+background-size: cover;
+background-repeat: no-repeat;
+
+    .widget-gw-widget .widget-header {
+      display: flex;
+      justify-content: space-between;
+      height: auto;
+      align-items: center;
+      width: 100%;
+      padding: 0 20px 16px 18px ;
+
+      span {
+        line-height: 26px;
+        font-size: 20px;
+        color: #333;
+        background: transparent;
+        padding-right: 12px;
+        font-weight: 600;
+      }
+      .colorful {
+        text-decoration: none !important;
+        font-weight: 600;
+        color: #333;
+        font-size: 16px;
+        display: flex;
+        padding: 8px 12px 8px 10px;
+        &:hover {
+          border-radius: 20px;
+          background: #E6E6E6;
+      }
+        svg  {
+          width: 25px;
+          height: 25px;
+          font-weight: 400;
+          color: #333;
+          font-size: 20px !important;
+        }
+      }
+    }
+  }
+
+
+  .widget-product {
+    position: relative;
+    margin: 0 16px 20px 16px ;
+    transition: box-shadow 0.2s linear;
+    cursor: pointer;
+    overflow: hidden;
+    width: 212px !important;
+    height: 378px !important;
+    border-radius: 8px !important;
+    box-shadow: none !important;
+    border: solid 1px #e6e6e6;
+
+    .image-container {
+       overflow: hidden; 
+       display: flex;
+      position: relative;
+   .p-card-img {
+       height: 94%;
+       margin: 0px auto 0px !important;
+    max-height: 222px !important;
+    transition: none !important;
+    transform: none !important;
+        border: none;
+        width: 100%;
+    }
+.pr-rc-top-ranking-badge {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(270.43deg, #FFC000 0%, #F27A1A 100%);
+      position: absolute;
+      width: 100% !important;
+      height: 20px;
+      bottom: 0;
+
+      .top-ranking-text {
+        color: #ffffff;
+        margin-left: 5px;
+        font-size: 11px;
+        font-family: source_sans_proregular, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+    }
+  }
+  }
+  .product-stamps {
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    .custom-stamp-box-wrapper {
+      position: relative;
+      height: 100%;
+      .upper-left {
+        position: absolute;
+        left: 8px;
+        top: 8px;
+
+        img{
+          width: 25%;
+        }
+    } 
+  }
+}
+.enhanced {
+  height: auto;
+
+  .stamp {
+    display: flex;
+    align-items: center;
+    padding: 0 !important;
+    margin: 8px 0 -3px 8px !important;
+    border-radius: 4px;
+    font-size: 10px !important;
+    width: 72px !important;
+    height: 24px !important;
+    background-color: #535353;
+    .inner {
+      display: flex;
+      align-items: center;
+       span {
+        font-size: 10px;
+        line-height: 9px;
+        text-align: initial;
+        width: 48px;
+        color: #fff;
+    }
+      svg  {
+        font-size: 12px;
+        color: #fff;
+        margin: 0px 7px;
+    }
+  }
+}
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px 0px 10px;
+  width: 192px;
+  height: 138px;
+
+  .product-info-area {
+    display: block;
+    margin-top: 10px;
+    width: 192px;
+    min-height: 54px;
+    margin-bottom: 10px;
+
+    .product-brand-description.two-line-text {
+      -webkit-line-clamp: 2;
+      height: auto;
+      min-height: 18px;
+      max-height: 36px;
+
+      .product-name-wrapper {
+        min-height: 18px;
+        max-height: 36px;
+        overflow: hidden;
+        text-align: left;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        span.brand {
+          margin-right: 4px;
+          font-size: 14px;
+          font-weight: bold;
+          color: #333;
+          font-weight: 600;
+      }
+      span.name {
+        font-size: 14px;
+        color: #666;
+        overflow: hidden;
+    }
+    }
+  }
+
+ .ratings-container {
+    display: flex;
+    min-height: 18px;
+    align-items: center;
+    margin-top: 4px;
+    .ratings-score {
+      font-weight: 600;      font-size: 12px;
+      line-height: 16px;
+      margin-right: 4px;
+      color: #333333;
+    }
+    .ratings {
+  align-items: center;
+    display: flex !important;
+
+    
+    svg{
+      color: #FFC000;
+      width: 11px;
+      height:11px;
+    }
+.ratingCount {
+      font-size: 12px;
+      color: #666666;
+      line-height: 16px;
+      margin-left: 4px;
+  }
+}
+}
+}
+
+.badges {
+  display: flex;
+  gap: 5px;
+  padding-top: 0px !important;
+  padding-bottom: 10px !important;
+
+  .promotion-badge {
+    background-color: #fff6ee;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    height: 24px;
+    padding-right: 5px;
+
+    .promotion-icon {
+      width: 24px;
+      height: 24px;
+  }
+  .promotion-text {
+    color: #333333 !important;
+    font-size: 11px;
+    font-weight: 600;
+} 
+}
+}
+
+.price-wrapper {
+  height: 36px;
+  display: block;
+  margin-bottom: 10px;
+  .price-box.discounted {
+    color: #f27a1a;
+    font-weight: 600;
+}
+}
+}
+}
+}
+

@@ -1,0 +1,12 @@
+.card-container {
+
+    .cards-img {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 kolon oluşturur, her biri eşit genişlikte */
+        gap: 10px; /* İsteğe bağlı: kolonlar arasında boşluk bırakmak için */
+
+        .component-item{
+            width: 100% !important  ;
+        }
+    }
+}
