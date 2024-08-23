@@ -295,13 +295,13 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div class="footer">
+        <div className="footer">
           <div className="container">
             <div className="footer__wrapper">
               <div>
                 <div>
                   <Link>
-                    <h4 class="footer__wrapper--sectionTitle">Trendyol</h4>
+                    <h4 className="footer__wrapper--sectionTitle">Trendyol</h4>
                   </Link>
                   <ul>
                     <li>
@@ -322,26 +322,26 @@ const Footer = () => {
                 <div>
                   <ul>
                     <li>
-                      <p class="footer__wrapper--mediumTitle">
+                      <p className="footer__wrapper--mediumTitle">
                         Güvenli Alışveriş
                       </p>
                     </li>
                     <li>
-                      <div class="footer__wrapper__secure_payment">
+                      <div className="footer__wrapper__secure_payment">
                         <div
-                          class="troy-img"
+                          className="troy-img"
                           aria-label="Troy Güvenli Ödeme"
                         ></div>
                         <div
-                          class="master-card-img"
+                          className="master-card-img"
                           aria-label="MasterCard Güvenli Ödeme"
                         ></div>
                         <div
-                          class="visa-img"
+                          className="visa-img"
                           aria-label="Visa Güvenli Ödeme"
                         ></div>
                         <div
-                          class="amex-img"
+                          className="amex-img"
                           aria-label="American Express Güvenli Ödeme"
                         ></div>
                       </div>
@@ -354,7 +354,7 @@ const Footer = () => {
                 <div>
                   <ul>
                     <Link>
-                      <h4 class="footer__wrapper--sectionTitle">About us</h4>
+                      <h4 className="footer__wrapper--sectionTitle">About us</h4>
                     </Link>
                     <li>
                       <Link>Who we are</Link>
@@ -373,26 +373,26 @@ const Footer = () => {
                 <div>
                   <ul>
                     <li>
-                      <p class="footer__wrapper--mediumTitle">
+                      <p className="footer__wrapper--mediumTitle">
                         Mobil Uygulamalar
                       </p>
                     </li>
                     <li>
-                      <div class="footer__wrapper__apps">
+                      <div className="footer__wrapper__apps">
                         <a
-                          class="footer__wrapper--socialImage app app-ios"
+                          className="footer__wrapper--socialImage app app-ios"
                           href="https://itunes.apple.com/tr/app/trendyol.com/id524362642"
                           target="_blank"
                           rel="noopener"
                         ></a>
                         <a
-                          class="footer__wrapper--socialImage app app-android"
+                          className="footer__wrapper--socialImage app app-android"
                           href="https://play.google.com/store/apps/details?id=trendyol.com"
                           rel="noopener"
                           aria-label="Trendyol.com Android Uygulaması"
                         ></a>
                         <a
-                          class="footer__wrapper--socialImage app app-huawei"
+                          className="footer__wrapper--socialImage app app-huawei"
                           href="https://appgallery.cloud.huawei.com/ag/n/app/C101645013?source=appshare&subsource=C101645013"
                           rel="noopener"
                           aria-label="Trendyol.com Huawei Uygulaması"
@@ -406,7 +406,7 @@ const Footer = () => {
               <div>
                 <div>
                   <Link>
-                    <h4 class="footer__wrapper--sectionTitle">Kampanyalar</h4>
+                    <h4 className="footer__wrapper--sectionTitle">Kampanyalar</h4>
                   </Link>
                   <ul>
                     <li>
@@ -426,30 +426,30 @@ const Footer = () => {
                 <div>
                   <ul>
                     <li>
-                      <p class="footer__wrapper--mediumTitle">Sosyal Medya</p>
+                      <p className="footer__wrapper--mediumTitle">Sosyal Medya</p>
                     </li>
                     <li>
-                      <div class="footer__wrapper__socialMedia">
+                      <div className="footer__wrapper__socialMedia">
                         <Link
-                          class="footer__wrapper--socialImage sm sm-facebook"
+                          className="footer__wrapper--socialImage sm sm-facebook"
                           href="https://www.facebook.com/Trendyol"
                           target="blank"
                           aria-label="Trendyol.com Facebook Sayfası"
                         ></Link>
                         <Link
-                          class="footer__wrapper--socialImage sm sm-instagram"
+                          className="footer__wrapper--socialImage sm sm-instagram"
                           href="https://instagram.com/trendyolcom"
                           target="blank"
                           aria-label="Trendyol.com Instagram Sayfası"
                         ></Link>
                         <Link
-                          class="footer__wrapper--socialImage sm sm-twitter"
+                          className="footer__wrapper--socialImage sm sm-twitter"
                           href="https://twitter.com/trendyol"
                           target="blank"
                           aria-label="Trendyol.com Twitter Sayfası"
                         ></Link>
                         <Link
-                          class="footer__wrapper--socialImage sm sm-youtube"
+                          className="footer__wrapper--socialImage sm sm-youtube"
                           href="https://www.youtube.com/trendyol"
                           target="blank"
                           aria-label="Trendyol.com Youtube Sayfası"
@@ -463,7 +463,7 @@ const Footer = () => {
               <div>
                 <div>
                   <Link>
-                    <h4 class="footer__wrapper--sectionTitle">Yardım</h4>
+                    <h4 className="footer__wrapper--sectionTitle">Yardım</h4>
                   </Link>
 
                   <ul>
@@ -485,7 +485,7 @@ const Footer = () => {
                 <div>
                   <ul>
                     <li>
-                      <button class="footer__wrapper--countrywrapper">
+                      <button className="footer__wrapper--countrywrapper">
                         Ülke Değiştir
                       </button>
                     </li>
@@ -515,10 +515,10 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div class="bandInfo"> 
-      <div class="bandInfo__wrapper">
-        <div class="bandInfo__wrapper__left" id="bandInfo__wrapper__left--link1">©2024 DSM Grup Danışmanlık İletişim ve Satış Tic.A.Ş.-Her Hakkı Saklıdır.</div>
-       <div class="bandInfo__wrapper__right">
+        <div className="bandInfo"> 
+      <div className="bandInfo__wrapper">
+        <div className="bandInfo__wrapper__left" id="bandInfo__wrapper__left--link1">©2024 DSM Grup Danışmanlık İletişim ve Satış Tic.A.Ş.-Her Hakkı Saklıdır.</div>
+       <div className="bandInfo__wrapper__right">
         <ul>
             <li>
                 <Link>Kullanım Koşulları</Link>

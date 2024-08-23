@@ -141,14 +141,14 @@ const Home = () => {
           <div className="widget-container no-padding extended-container">
             <div className="banner-listing-items">
               <Link>
-              <img alt="Sepete En Çok Eklenenler" className="p-card-img " src="https://cdn.dsmcdn.com/mnresize/500/500/marketing/datascience/automation/2023/4/18/Sepet_202304181225.png"/>
+                <img alt="Sepete En Çok Eklenenler" className="p-card-img" src="https://cdn.dsmcdn.com/mnresize/500/500/marketing/datascience/automation/2023/4/18/Sepet_202304181225.png"/>
               </Link>
 
               <Link>
-              <img alt="En Çok Öne Çıkanlar" className="p-card-img " src="https://cdn.dsmcdn.com/mnresize/500/500/marketing/datascience/automation/2023/4/18/Onecikan_202304181225.png"/>
+                <img alt="En Çok Öne Çıkanlar" className="p-card-img" src="https://cdn.dsmcdn.com/mnresize/500/500/marketing/datascience/automation/2023/4/18/Onecikan_202304181225.png"/>
               </Link>
               <Link>
-              <img alt="Flaş Ürünler" className="p-card-img " src="https://cdn.dsmcdn.com/mnresize/500/500/marketing/datascience/automation/2023/4/18/Flash_202304181225.png"/>
+                <img alt="Flaş Ürünler" className="p-card-img" src="https://cdn.dsmcdn.com/mnresize/500/500/marketing/datascience/automation/2023/4/18/Flash_202304181225.png"/>
               </Link>
             </div>
           </div>
@@ -156,63 +156,63 @@ const Home = () => {
       </div>
 
       <Popular/>
-<div id="browsing-gw-homepage">
-<div className="container">
-<div className="hover-img">
-  <div className="component-item">
-<Link className='widget widget-small no-border-and-shadow'>
-< img src="https://cdn.dsmcdn.com/ty1463/pimWidgetApi/mobile_20240805062724_2317415KadinMobile202408021902.jpg" alt/>
-</Link>
-  </div>
-  <div className="component-item">
-<Link className='widget widget-small no-border-and-shadow'>
-< img src="https://cdn.dsmcdn.com/ty1452/pimWidgetApi/mobile_20240801105054_3028433EvAmpAmpAmpAmpAmpAmpAmpAmpAmpAmpAmpYasamMobile202407311801.jpg" alt/>
-</Link>
-  </div>
-  <div className="component-item">
-<Link className='widget widget-small no-border-and-shadow'>
-< img src="https://cdn.dsmcdn.com/ty1464/pimWidgetApi/mobile_20240805161853_3007071KadinMobile202408051801.jpg" alt/>
-</Link>
-  </div>
-</div>
-</div>
-</div>
+      <div id="browsing-gw-homepage">
+        <div className="container">
+          <div className="hover-img">
+            <div className="component-item">
+              <Link className='widget widget-small no-border-and-shadow'>
+                <img src="https://cdn.dsmcdn.com/ty1463/pimWidgetApi/mobile_20240805062724_2317415KadinMobile202408021902.jpg" alt="Widget 1"/>
+              </Link>
+            </div>
+            <div className="component-item">
+              <Link className='widget widget-small no-border-and-shadow'>
+                <img src="https://cdn.dsmcdn.com/ty1452/pimWidgetApi/mobile_20240801105054_3028433EvAmpAmpAmpAmpAmpAmpAmpAmpAmpAmpAmpYasamMobile202407311801.jpg" alt="Widget 2"/>
+              </Link>
+            </div>
+            <div className="component-item">
+              <Link className='widget widget-small no-border-and-shadow'>
+                <img src="https://cdn.dsmcdn.com/ty1464/pimWidgetApi/mobile_20240805161853_3007071KadinMobile202408051801.jpg" alt="Widget 3"/>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
 
-<Flas/>
-<PopularCategories/>
-<Sale/>
+      <Flas/>
+      <PopularCategories/>
+      <Sale/>
 
-<div id="browsing-gw-homepage">
-<div className="container">
-<div className="hover-img">
-  <div className="component-item">
-<Link className='widget widget-small no-border-and-shadow'>
-<img src="https://cdn.dsmcdn.com/ty1468/pimWidgetApi/mobile_20240807081343_thumbnail2965548KadinMobile202407021701.jpg" alt/>
-</Link>
-  </div>
-  <div className="component-item">
-<Link className='widget widget-small no-border-and-shadow'>
-<img src="https://cdn.dsmcdn.com/ty1435/pimWidgetApi/mobile_20240722061404_2970506KadinMobile202407191702.jpg" alt/>
-</Link>
-  </div>
-  <div className="component-item">
-<Link className='widget widget-small no-border-and-shadow'>
-<img src="https://cdn.dsmcdn.com/ty1469/pimWidgetApi/mobile_20240807093931_2702464KadinMobile2024072617031.jpg" alt/>
-</Link>
-  </div>
-</div>
-</div>
-</div>
+      <div id="browsing-gw-homepage">
+        <div className="container">
+          <div className="hover-img">
+            <div className="component-item">
+              <Link className='widget widget-small no-border-and-shadow'>
+                <img src="https://cdn.dsmcdn.com/ty1468/pimWidgetApi/mobile_20240807081343_thumbnail2965548KadinMobile202407021701.jpg" alt="Widget 4"/>
+              </Link>
+            </div>
+            <div className="component-item">
+              <Link className='widget widget-small no-border-and-shadow'>
+                <img src="https://cdn.dsmcdn.com/ty1435/pimWidgetApi/mobile_20240722061404_2970506KadinMobile202407191702.jpg" alt="Widget 5"/>
+              </Link>
+            </div>
+            <div className="component-item">
+              <Link className='widget widget-small no-border-and-shadow'>
+                <img src="https://cdn.dsmcdn.com/ty1469/pimWidgetApi/mobile_20240807093931_2702464KadinMobile2024072617031.jpg" alt="Widget 6"/>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
 
-<Avantaj/>
-<Cards/>
+      <Avantaj/>
+      <Cards/>
 
-<Boutique/>
-<BoutiqueList/>
-<Footer/>
+      <Boutique/>
+      <BoutiqueList/>
+      <Footer/>
+      
 
     </div>
-
   );
 };
 

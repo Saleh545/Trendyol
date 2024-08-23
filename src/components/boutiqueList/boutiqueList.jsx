@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 
 const BoutiqueList = () => {
   return (
-        <div class="boutique-list-seo-content-wrapper" >
+        <div className="boutique-list-seo-content-wrapper" >
     <div className='container'>
-        <div class="boutique-list-seo-content-title">
+        <div className="boutique-list-seo-content-title">
             <h2>Tüm İhtiyaçlarınız İçin Tek İhtiyacınız Trendyol!</h2>
         </div>
-        <div class="boutique-list-seo-content-image">
+        <div className="boutique-list-seo-content-image">
             <section>
             <h3>Tüm İhtiyaçlarınız İçin Tek İhtiyacınız Trendyol!</h3>
             <p>Türkiye’nin önemli online alışveriş adreslerinden biri olan Trendyol, 2010 yılında modayı herkes için ulaşılabilir kılmak amacıyla kuruldu. Giyimden aksesuara, ayakkabıdan kozmetiğe kadar pek çok ürünle beğeni kazanır. Firma, gelişen pazar hacminde büyük söz sahibi olur. Hem farklı zevklere hem de bütçelere hitap eder. Kolay ve güvenli bir deneyim sunar. Üst ve alt giyim kategorilerinde çeşitli modeller hazırlanır. Bu koleksiyonlar uygun fiyat avantajıyla sunulur. Her mevsime uygun ürün seçenekleri bulunur. Kışlık seçimlerde kazak, mont, hırka, ceket gibi ürünleri baskındır. Yaz kombinlerinde renkli ve sade tişört modelleri sıklıkla kullanılır. İnce kumaştan üretilen jeanlar ve kapriler de yine yaz ayları için ideal bir seçimler olarak değerlendirilir. Yaz tatili için de bikini takımlarından satın alabiliriz. Geniş beden aralığı sayesinde istediğimiz ürünü tercih edebiliriz.</p>

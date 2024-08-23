@@ -1,77 +1,73 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 import { FaBox, FaStar } from "react-icons/fa";
+import axios from "axios";
 
+
+const Similar = () => {
+    
 const settings = {
-  infinite: true,
-  slidesToShow: 5,
-  slidesToScroll: 5,
-  speed: 900,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 5,
-        slidesToScroll: 5,
-        infinite: true,
+    infinite: true,
+    slidesToShow: 5,
+    slidesToScroll: 5,
+    speed: 900,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 5,
+          infinite: true,
+        },
       },
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1,
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
       },
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
       },
-    },
-  ],
-};
-
-const Popular = () => {
-  const [products, setProducts] = useState([]);
-
-  useEffect(() => {
-    const fetchProducts = async () => {
-      try {
-        const response = await axios.get("https://api.escuelajs.co/api/v1/products");
-        setProducts(response.data);
-      } catch (error) {
-        console.error("Error fetching products:", error);
-      }
-    };
-
-    fetchProducts();
-  }, []);
-
+    ],
+  };
+  
+    const [products, setProducts] = useState([]);
+  
+    useEffect(() => {
+      const fetchProducts = async () => {
+        try {
+          const response = await axios.get("https://api.escuelajs.co/api/v1/products");
+          setProducts(response.data);
+        } catch (error) {
+          console.error("Error fetching products:", error);
+        }
+      };
+  
+      fetchProducts();
+    }, []);
   return (
     <div>
-      <div className="component-item widget-width">
-        <div className="widget-container extended-container container">
-          <div className="widget-gw-widget">
-            <div className="widget-header">
-              <span className="colorfull">Popüler Ürünler</span>
-              <div className="widget-header-navigation">
-                <Link
-                  className="colorful"
-                  to="/sanaozel/1?versionKey=singleProducts_JFY_Original_Woman_Deng"
-                >
-                  Tümünü Gör <MdKeyboardArrowRight />
-                </Link>
-              </div>
-            </div>
+        <div className="pr-rcs-w productDetail-Similar">
+            <div className="container">
+                <div className="pr-rcs-tl title">
+                    <h3>Benzer Ürünler</h3>
+                </div>
 
-            <div className="styles-module_sliderBase__swkx1 product-slider">
+
+                <div className="component-item widget-width">
+        <div className="widget-container extended-container similar-background ">
+          <div className="widget-gw-widget">
+             <div className="styles-module_sliderBase__swkx1 product-slider">
               <div className="styles-module_slider__o0fqa">
                 <div className="slider-container">
                   <Slider {...settings} className="popular">
@@ -156,8 +152,10 @@ const Popular = () => {
           </div>
         </div>
       </div>
+            </div>
+        </div>
     </div>
-  );
-};
+  )
+}
 
-export default Popular;
+export default Similar

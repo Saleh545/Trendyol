@@ -25,9 +25,17 @@
 //boutique
 @import "../components/boutique/boutique.scss";
 
-// boutiquelist
+//boutiquelist
 @import "../components/boutiqueList/boutiqueList.scss";
 
-
 //footer
-@import "../components/footer/footer.scss"
+@import "../components/footer/footer.scss";
+
+//product
+@import "../pages/product/product.scss";
+
+//similar
+@import "../components/similar/similar.scss";
+
+//cross
+@import "../components/cross/cross.scss"

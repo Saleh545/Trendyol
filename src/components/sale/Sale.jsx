@@ -80,58 +80,58 @@ const Sale = () => {
                             </div>
                           </div>
                         </div>
-                        <div class="pr-rc-top-ranking-badge">
+                        <div className="pr-rc-top-ranking-badge">
                           <img
                             alt="en iyi sıralama rozeti"
                             src="https://cdn.dsmcdn.com/web/production/category-top-ranking-icon.svg"
                             width="8"
                             height="12"
                           />
-                          <span class="top-ranking-text">
+                          <span className="top-ranking-text">
                             En Çok Ziyaret Edilen 1. Ürün
                           </span>
                         </div>
                       </div>
-                      <div class="description fixed-elements">
-                        <div class="product-info-area">
-                          <div class="product-brand-description two-line-text">
-                            <div class="product-name-wrapper">
-                              <span class="brand">HC Care</span>
-                              <span class="name">
+                      <div className="description fixed-elements">
+                        <div className="product-info-area">
+                          <div className="product-brand-description two-line-text">
+                            <div className="product-name-wrapper">
+                              <span className="brand">HC Care</span>
+                              <span className="name">
                                 Complex Bitkisel Saç Bakım Kompleksi - 100 ml
                               </span>
                             </div>
                           </div>
-                          <div class="ratings-container">
-                            <span class="ratings-score">4.6</span>
-                            <div class="ratings">
+                          <div className="ratings-container">
+                            <span className="ratings-score">4.6</span>
+                            <div className="ratings">
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
-                              <span class="ratingCount">(45630)</span>
+                              <span className="ratingCount">(45630)</span>
                             </div>
                           </div>
                         </div>
 
                         <div className="price-wrapper">
-                          <div class="lowest-price-section">
-                            <div class="low-price-in-last-month with-basket"></div>
+                          <div className="lowest-price-section">
+                            <div className="low-price-in-last-month with-basket"></div>
                           </div>
-                          <div class="price-container">
-                            <div class="price-box discounted">439 TL</div>
+                          <div className="price-container">
+                            <div className="price-box discounted">439 TL</div>
                           </div>
                         </div>
-                        <div class="badges">
-                          <div class="promotion-badge">
+                        <div className="badges">
+                          <div className="promotion-badge">
                             <img
-                              class="promotion-icon"
+                              className="promotion-icon"
                               src="https://cdn.dsmcdn.com/web/production/campaign-product-promotion-icon.svg"
                               alt="icon"
                             />
 
-                            <span class="promotion-text">4 Al 3 Öde</span>
+                            <span className="promotion-text">4 Al 3 Öde</span>
                           </div>
                         </div>
                       </div>
@@ -160,58 +160,58 @@ const Sale = () => {
                             </div>
                           </div>
                         </div>
-                        <div class="pr-rc-top-ranking-badge">
+                        <div className="pr-rc-top-ranking-badge">
                           <img
                             alt="en iyi sıralama rozeti"
                             src="https://cdn.dsmcdn.com/web/production/category-top-ranking-icon.svg"
                             width="8"
                             height="12"
                           />
-                          <span class="top-ranking-text">
+                          <span className="top-ranking-text">
                             En Çok Ziyaret Edilen 1. Ürün
                           </span>
                         </div>
                       </div>
-                      <div class="description fixed-elements">
-                        <div class="product-info-area">
-                          <div class="product-brand-description two-line-text">
-                            <div class="product-name-wrapper">
-                              <span class="brand">HC Care</span>
-                              <span class="name">
+                      <div className="description fixed-elements">
+                        <div className="product-info-area">
+                          <div className="product-brand-description two-line-text">
+                            <div className="product-name-wrapper">
+                              <span className="brand">HC Care</span>
+                              <span className="name">
                                 Complex Bitkisel Saç Bakım Kompleksi - 100 ml
                               </span>
                             </div>
                           </div>
-                          <div class="ratings-container">
-                            <span class="ratings-score">4.6</span>
-                            <div class="ratings">
+                          <div className="ratings-container">
+                            <span className="ratings-score">4.6</span>
+                            <div className="ratings">
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
-                              <span class="ratingCount">(45630)</span>
+                              <span className="ratingCount">(45630)</span>
                             </div>
                           </div>
                         </div>
 
                         <div className="price-wrapper">
-                          <div class="lowest-price-section">
-                            <div class="low-price-in-last-month with-basket"></div>
+                          <div className="lowest-price-section">
+                            <div className="low-price-in-last-month with-basket"></div>
                           </div>
-                          <div class="price-container">
-                            <div class="price-box discounted">439 TL</div>
+                          <div className="price-container">
+                            <div className="price-box discounted">439 TL</div>
                           </div>
                         </div>
-                        <div class="badges">
-                          <div class="promotion-badge">
+                        <div className="badges">
+                          <div className="promotion-badge">
                             <img
-                              class="promotion-icon"
+                              className="promotion-icon"
                               src="https://cdn.dsmcdn.com/web/production/campaign-product-promotion-icon.svg"
                               alt="icon"
                             />
 
-                            <span class="promotion-text">4 Al 3 Öde</span>
+                            <span className="promotion-text">4 Al 3 Öde</span>
                           </div>
                         </div>
                       </div>
@@ -240,58 +240,58 @@ const Sale = () => {
                             </div>
                           </div>
                         </div>
-                        <div class="pr-rc-top-ranking-badge">
+                        <div className="pr-rc-top-ranking-badge">
                           <img
                             alt="en iyi sıralama rozeti"
                             src="https://cdn.dsmcdn.com/web/production/category-top-ranking-icon.svg"
                             width="8"
                             height="12"
                           />
-                          <span class="top-ranking-text">
+                          <span className="top-ranking-text">
                             En Çok Ziyaret Edilen 1. Ürün
                           </span>
                         </div>
                       </div>
-                      <div class="description fixed-elements">
-                        <div class="product-info-area">
-                          <div class="product-brand-description two-line-text">
-                            <div class="product-name-wrapper">
-                              <span class="brand">HC Care</span>
-                              <span class="name">
+                      <div className="description fixed-elements">
+                        <div className="product-info-area">
+                          <div className="product-brand-description two-line-text">
+                            <div className="product-name-wrapper">
+                              <span className="brand">HC Care</span>
+                              <span className="name">
                                 Complex Bitkisel Saç Bakım Kompleksi - 100 ml
                               </span>
                             </div>
                           </div>
-                          <div class="ratings-container">
-                            <span class="ratings-score">4.6</span>
-                            <div class="ratings">
+                          <div className="ratings-container">
+                            <span className="ratings-score">4.6</span>
+                            <div className="ratings">
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
-                              <span class="ratingCount">(45630)</span>
+                              <span className="ratingCount">(45630)</span>
                             </div>
                           </div>
                         </div>
 
                         <div className="price-wrapper">
-                          <div class="lowest-price-section">
-                            <div class="low-price-in-last-month with-basket"></div>
+                          <div className="lowest-price-section">
+                            <div className="low-price-in-last-month with-basket"></div>
                           </div>
-                          <div class="price-container">
-                            <div class="price-box discounted">439 TL</div>
+                          <div className="price-container">
+                            <div className="price-box discounted">439 TL</div>
                           </div>
                         </div>
-                        <div class="badges">
-                          <div class="promotion-badge">
+                        <div className="badges">
+                          <div className="promotion-badge">
                             <img
-                              class="promotion-icon"
+                              className="promotion-icon"
                               src="https://cdn.dsmcdn.com/web/production/campaign-product-promotion-icon.svg"
                               alt="icon"
                             />
 
-                            <span class="promotion-text">4 Al 3 Öde</span>
+                            <span className="promotion-text">4 Al 3 Öde</span>
                           </div>
                         </div>
                       </div>
@@ -320,58 +320,58 @@ const Sale = () => {
                             </div>
                           </div>
                         </div>
-                        <div class="pr-rc-top-ranking-badge">
+                        <div className="pr-rc-top-ranking-badge">
                           <img
                             alt="en iyi sıralama rozeti"
                             src="https://cdn.dsmcdn.com/web/production/category-top-ranking-icon.svg"
                             width="8"
                             height="12"
                           />
-                          <span class="top-ranking-text">
+                          <span className="top-ranking-text">
                             En Çok Ziyaret Edilen 1. Ürün
                           </span>
                         </div>
                       </div>
-                      <div class="description fixed-elements">
-                        <div class="product-info-area">
-                          <div class="product-brand-description two-line-text">
-                            <div class="product-name-wrapper">
-                              <span class="brand">HC Care</span>
-                              <span class="name">
+                      <div className="description fixed-elements">
+                        <div className="product-info-area">
+                          <div className="product-brand-description two-line-text">
+                            <div className="product-name-wrapper">
+                              <span className="brand">HC Care</span>
+                              <span className="name">
                                 Complex Bitkisel Saç Bakım Kompleksi - 100 ml
                               </span>
                             </div>
                           </div>
-                          <div class="ratings-container">
-                            <span class="ratings-score">4.6</span>
-                            <div class="ratings">
+                          <div className="ratings-container">
+                            <span className="ratings-score">4.6</span>
+                            <div className="ratings">
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
-                              <span class="ratingCount">(45630)</span>
+                              <span className="ratingCount">(45630)</span>
                             </div>
                           </div>
                         </div>
 
                         <div className="price-wrapper">
-                          <div class="lowest-price-section">
-                            <div class="low-price-in-last-month with-basket"></div>
+                          <div className="lowest-price-section">
+                            <div className="low-price-in-last-month with-basket"></div>
                           </div>
-                          <div class="price-container">
-                            <div class="price-box discounted">439 TL</div>
+                          <div className="price-container">
+                            <div className="price-box discounted">439 TL</div>
                           </div>
                         </div>
-                        <div class="badges">
-                          <div class="promotion-badge">
+                        <div className="badges">
+                          <div className="promotion-badge">
                             <img
-                              class="promotion-icon"
+                              className="promotion-icon"
                               src="https://cdn.dsmcdn.com/web/production/campaign-product-promotion-icon.svg"
                               alt="icon"
                             />
 
-                            <span class="promotion-text">4 Al 3 Öde</span>
+                            <span className="promotion-text">4 Al 3 Öde</span>
                           </div>
                         </div>
                       </div>
@@ -400,58 +400,58 @@ const Sale = () => {
                             </div>
                           </div>
                         </div>
-                        <div class="pr-rc-top-ranking-badge">
+                        <div className="pr-rc-top-ranking-badge">
                           <img
                             alt="en iyi sıralama rozeti"
                             src="https://cdn.dsmcdn.com/web/production/category-top-ranking-icon.svg"
                             width="8"
                             height="12"
                           />
-                          <span class="top-ranking-text">
+                          <span className="top-ranking-text">
                             En Çok Ziyaret Edilen 1. Ürün
                           </span>
                         </div>
                       </div>
-                      <div class="description fixed-elements">
-                        <div class="product-info-area">
-                          <div class="product-brand-description two-line-text">
-                            <div class="product-name-wrapper">
-                              <span class="brand">HC Care</span>
-                              <span class="name">
+                      <div className="description fixed-elements">
+                        <div className="product-info-area">
+                          <div className="product-brand-description two-line-text">
+                            <div className="product-name-wrapper">
+                              <span className="brand">HC Care</span>
+                              <span className="name">
                                 Complex Bitkisel Saç Bakım Kompleksi - 100 ml
                               </span>
                             </div>
                           </div>
-                          <div class="ratings-container">
-                            <span class="ratings-score">4.6</span>
-                            <div class="ratings">
+                          <div className="ratings-container">
+                            <span className="ratings-score">4.6</span>
+                            <div className="ratings">
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
-                              <span class="ratingCount">(45630)</span>
+                              <span className="ratingCount">(45630)</span>
                             </div>
                           </div>
                         </div>
 
                         <div className="price-wrapper">
-                          <div class="lowest-price-section">
-                            <div class="low-price-in-last-month with-basket"></div>
+                          <div className="lowest-price-section">
+                            <div className="low-price-in-last-month with-basket"></div>
                           </div>
-                          <div class="price-container">
-                            <div class="price-box discounted">439 TL</div>
+                          <div className="price-container">
+                            <div className="price-box discounted">439 TL</div>
                           </div>
                         </div>
-                        <div class="badges">
-                          <div class="promotion-badge">
+                        <div className="badges">
+                          <div className="promotion-badge">
                             <img
-                              class="promotion-icon"
+                              className="promotion-icon"
                               src="https://cdn.dsmcdn.com/web/production/campaign-product-promotion-icon.svg"
                               alt="icon"
                             />
 
-                            <span class="promotion-text">4 Al 3 Öde</span>
+                            <span className="promotion-text">4 Al 3 Öde</span>
                           </div>
                         </div>
                       </div>
@@ -480,58 +480,58 @@ const Sale = () => {
                             </div>
                           </div>
                         </div>
-                        <div class="pr-rc-top-ranking-badge">
+                        <div className="pr-rc-top-ranking-badge">
                           <img
                             alt="en iyi sıralama rozeti"
                             src="https://cdn.dsmcdn.com/web/production/category-top-ranking-icon.svg"
                             width="8"
                             height="12"
                           />
-                          <span class="top-ranking-text">
+                          <span className="top-ranking-text">
                             En Çok Ziyaret Edilen 1. Ürün
                           </span>
                         </div>
                       </div>
-                      <div class="description fixed-elements">
-                        <div class="product-info-area">
-                          <div class="product-brand-description two-line-text">
-                            <div class="product-name-wrapper">
-                              <span class="brand">HC Care</span>
-                              <span class="name">
+                      <div className="description fixed-elements">
+                        <div className="product-info-area">
+                          <div className="product-brand-description two-line-text">
+                            <div className="product-name-wrapper">
+                              <span className="brand">HC Care</span>
+                              <span className="name">
                                 Complex Bitkisel Saç Bakım Kompleksi - 100 ml
                               </span>
                             </div>
                           </div>
-                          <div class="ratings-container">
-                            <span class="ratings-score">4.6</span>
-                            <div class="ratings">
+                          <div className="ratings-container">
+                            <span className="ratings-score">4.6</span>
+                            <div className="ratings">
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
-                              <span class="ratingCount">(45630)</span>
+                              <span className="ratingCount">(45630)</span>
                             </div>
                           </div>
                         </div>
 
                         <div className="price-wrapper">
-                          <div class="lowest-price-section">
-                            <div class="low-price-in-last-month with-basket"></div>
+                          <div className="lowest-price-section">
+                            <div className="low-price-in-last-month with-basket"></div>
                           </div>
-                          <div class="price-container">
-                            <div class="price-box discounted">439 TL</div>
+                          <div className="price-container">
+                            <div className="price-box discounted">439 TL</div>
                           </div>
                         </div>
-                        <div class="badges">
-                          <div class="promotion-badge">
+                        <div className="badges">
+                          <div className="promotion-badge">
                             <img
-                              class="promotion-icon"
+                              className="promotion-icon"
                               src="https://cdn.dsmcdn.com/web/production/campaign-product-promotion-icon.svg"
                               alt="icon"
                             />
 
-                            <span class="promotion-text">4 Al 3 Öde</span>
+                            <span className="promotion-text">4 Al 3 Öde</span>
                           </div>
                         </div>
                       </div>
@@ -560,58 +560,58 @@ const Sale = () => {
                             </div>
                           </div>
                         </div>
-                        <div class="pr-rc-top-ranking-badge">
+                        <div className="pr-rc-top-ranking-badge">
                           <img
                             alt="en iyi sıralama rozeti"
                             src="https://cdn.dsmcdn.com/web/production/category-top-ranking-icon.svg"
                             width="8"
                             height="12"
                           />
-                          <span class="top-ranking-text">
+                          <span className="top-ranking-text">
                             En Çok Ziyaret Edilen 1. Ürün
                           </span>
                         </div>
                       </div>
-                      <div class="description fixed-elements">
-                        <div class="product-info-area">
-                          <div class="product-brand-description two-line-text">
-                            <div class="product-name-wrapper">
-                              <span class="brand">HC Care</span>
-                              <span class="name">
+                      <div className="description fixed-elements">
+                        <div className="product-info-area">
+                          <div className="product-brand-description two-line-text">
+                            <div className="product-name-wrapper">
+                              <span className="brand">HC Care</span>
+                              <span className="name">
                                 Complex Bitkisel Saç Bakım Kompleksi - 100 ml
                               </span>
                             </div>
                           </div>
-                          <div class="ratings-container">
-                            <span class="ratings-score">4.6</span>
-                            <div class="ratings">
+                          <div className="ratings-container">
+                            <span className="ratings-score">4.6</span>
+                            <div className="ratings">
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
-                              <span class="ratingCount">(45630)</span>
+                              <span className="ratingCount">(45630)</span>
                             </div>
                           </div>
                         </div>
 
                         <div className="price-wrapper">
-                          <div class="lowest-price-section">
-                            <div class="low-price-in-last-month with-basket"></div>
+                          <div className="lowest-price-section">
+                            <div className="low-price-in-last-month with-basket"></div>
                           </div>
-                          <div class="price-container">
-                            <div class="price-box discounted">439 TL</div>
+                          <div className="price-container">
+                            <div className="price-box discounted">439 TL</div>
                           </div>
                         </div>
-                        <div class="badges">
-                          <div class="promotion-badge">
+                        <div className="badges">
+                          <div className="promotion-badge">
                             <img
-                              class="promotion-icon"
+                              className="promotion-icon"
                               src="https://cdn.dsmcdn.com/web/production/campaign-product-promotion-icon.svg"
                               alt="icon"
                             />
 
-                            <span class="promotion-text">4 Al 3 Öde</span>
+                            <span className="promotion-text">4 Al 3 Öde</span>
                           </div>
                         </div>
                       </div>
@@ -640,58 +640,58 @@ const Sale = () => {
                             </div>
                           </div>
                         </div>
-                        <div class="pr-rc-top-ranking-badge">
+                        <div className="pr-rc-top-ranking-badge">
                           <img
                             alt="en iyi sıralama rozeti"
                             src="https://cdn.dsmcdn.com/web/production/category-top-ranking-icon.svg"
                             width="8"
                             height="12"
                           />
-                          <span class="top-ranking-text">
+                          <span className="top-ranking-text">
                             En Çok Ziyaret Edilen 1. Ürün
                           </span>
                         </div>
                       </div>
-                      <div class="description fixed-elements">
-                        <div class="product-info-area">
-                          <div class="product-brand-description two-line-text">
-                            <div class="product-name-wrapper">
-                              <span class="brand">HC Care</span>
-                              <span class="name">
+                      <div className="description fixed-elements">
+                        <div className="product-info-area">
+                          <div className="product-brand-description two-line-text">
+                            <div className="product-name-wrapper">
+                              <span className="brand">HC Care</span>
+                              <span className="name">
                                 Complex Bitkisel Saç Bakım Kompleksi - 100 ml
                               </span>
                             </div>
                           </div>
-                          <div class="ratings-container">
-                            <span class="ratings-score">4.6</span>
-                            <div class="ratings">
+                          <div className="ratings-container">
+                            <span className="ratings-score">4.6</span>
+                            <div className="ratings">
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
-                              <span class="ratingCount">(45630)</span>
+                              <span className="ratingCount">(45630)</span>
                             </div>
                           </div>
                         </div>
 
                         <div className="price-wrapper">
-                          <div class="lowest-price-section">
-                            <div class="low-price-in-last-month with-basket"></div>
+                          <div className="lowest-price-section">
+                            <div className="low-price-in-last-month with-basket"></div>
                           </div>
-                          <div class="price-container">
-                            <div class="price-box discounted">439 TL</div>
+                          <div className="price-container">
+                            <div className="price-box discounted">439 TL</div>
                           </div>
                         </div>
-                        <div class="badges">
-                          <div class="promotion-badge">
+                        <div className="badges">
+                          <div className="promotion-badge">
                             <img
-                              class="promotion-icon"
+                              className="promotion-icon"
                               src="https://cdn.dsmcdn.com/web/production/campaign-product-promotion-icon.svg"
                               alt="icon"
                             />
 
-                            <span class="promotion-text">4 Al 3 Öde</span>
+                            <span className="promotion-text">4 Al 3 Öde</span>
                           </div>
                         </div>
                       </div>
@@ -720,58 +720,58 @@ const Sale = () => {
                             </div>
                           </div>
                         </div>
-                        <div class="pr-rc-top-ranking-badge">
+                        <div className="pr-rc-top-ranking-badge">
                           <img
                             alt="en iyi sıralama rozeti"
                             src="https://cdn.dsmcdn.com/web/production/category-top-ranking-icon.svg"
                             width="8"
                             height="12"
                           />
-                          <span class="top-ranking-text">
+                          <span className="top-ranking-text">
                             En Çok Ziyaret Edilen 1. Ürün
                           </span>
                         </div>
                       </div>
-                      <div class="description fixed-elements">
-                        <div class="product-info-area">
-                          <div class="product-brand-description two-line-text">
-                            <div class="product-name-wrapper">
-                              <span class="brand">HC Care</span>
-                              <span class="name">
+                      <div className="description fixed-elements">
+                        <div className="product-info-area">
+                          <div className="product-brand-description two-line-text">
+                            <div className="product-name-wrapper">
+                              <span className="brand">HC Care</span>
+                              <span className="name">
                                 Complex Bitkisel Saç Bakım Kompleksi - 100 ml
                               </span>
                             </div>
                           </div>
-                          <div class="ratings-container">
-                            <span class="ratings-score">4.6</span>
-                            <div class="ratings">
+                          <div className="ratings-container">
+                            <span className="ratings-score">4.6</span>
+                            <div className="ratings">
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
-                              <span class="ratingCount">(45630)</span>
+                              <span className="ratingCount">(45630)</span>
                             </div>
                           </div>
                         </div>
 
                         <div className="price-wrapper">
-                          <div class="lowest-price-section">
-                            <div class="low-price-in-last-month with-basket"></div>
+                          <div className="lowest-price-section">
+                            <div className="low-price-in-last-month with-basket"></div>
                           </div>
-                          <div class="price-container">
-                            <div class="price-box discounted">439 TL</div>
+                          <div className="price-container">
+                            <div className="price-box discounted">439 TL</div>
                           </div>
                         </div>
-                        <div class="badges">
-                          <div class="promotion-badge">
+                        <div className="badges">
+                          <div className="promotion-badge">
                             <img
-                              class="promotion-icon"
+                              className="promotion-icon"
                               src="https://cdn.dsmcdn.com/web/production/campaign-product-promotion-icon.svg"
                               alt="icon"
                             />
 
-                            <span class="promotion-text">4 Al 3 Öde</span>
+                            <span className="promotion-text">4 Al 3 Öde</span>
                           </div>
                         </div>
                       </div>
@@ -800,58 +800,58 @@ const Sale = () => {
                             </div>
                           </div>
                         </div>
-                        <div class="pr-rc-top-ranking-badge">
+                        <div className="pr-rc-top-ranking-badge">
                           <img
                             alt="en iyi sıralama rozeti"
                             src="https://cdn.dsmcdn.com/web/production/category-top-ranking-icon.svg"
                             width="8"
                             height="12"
                           />
-                          <span class="top-ranking-text">
+                          <span className="top-ranking-text">
                             En Çok Ziyaret Edilen 1. Ürün
                           </span>
                         </div>
                       </div>
-                      <div class="description fixed-elements">
-                        <div class="product-info-area">
-                          <div class="product-brand-description two-line-text">
-                            <div class="product-name-wrapper">
-                              <span class="brand">HC Care</span>
-                              <span class="name">
+                      <div className="description fixed-elements">
+                        <div className="product-info-area">
+                          <div className="product-brand-description two-line-text">
+                            <div className="product-name-wrapper">
+                              <span className="brand">HC Care</span>
+                              <span className="name">
                                 Complex Bitkisel Saç Bakım Kompleksi - 100 ml
                               </span>
                             </div>
                           </div>
-                          <div class="ratings-container">
-                            <span class="ratings-score">4.6</span>
-                            <div class="ratings">
+                          <div className="ratings-container">
+                            <span className="ratings-score">4.6</span>
+                            <div className="ratings">
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
-                              <span class="ratingCount">(45630)</span>
+                              <span className="ratingCount">(45630)</span>
                             </div>
                           </div>
                         </div>
 
                         <div className="price-wrapper">
-                          <div class="lowest-price-section">
-                            <div class="low-price-in-last-month with-basket"></div>
+                          <div className="lowest-price-section">
+                            <div className="low-price-in-last-month with-basket"></div>
                           </div>
-                          <div class="price-container">
-                            <div class="price-box discounted">439 TL</div>
+                          <div className="price-container">
+                            <div className="price-box discounted">439 TL</div>
                           </div>
                         </div>
-                        <div class="badges">
-                          <div class="promotion-badge">
+                        <div className="badges">
+                          <div className="promotion-badge">
                             <img
-                              class="promotion-icon"
+                              className="promotion-icon"
                               src="https://cdn.dsmcdn.com/web/production/campaign-product-promotion-icon.svg"
                               alt="icon"
                             />
 
-                            <span class="promotion-text">4 Al 3 Öde</span>
+                            <span className="promotion-text">4 Al 3 Öde</span>
                           </div>
                         </div>
                       </div>
@@ -880,58 +880,58 @@ const Sale = () => {
                             </div>
                           </div>
                         </div>
-                        <div class="pr-rc-top-ranking-badge">
+                        <div className="pr-rc-top-ranking-badge">
                           <img
                             alt="en iyi sıralama rozeti"
                             src="https://cdn.dsmcdn.com/web/production/category-top-ranking-icon.svg"
                             width="8"
                             height="12"
                           />
-                          <span class="top-ranking-text">
+                          <span className="top-ranking-text">
                             En Çok Ziyaret Edilen 1. Ürün
                           </span>
                         </div>
                       </div>
-                      <div class="description fixed-elements">
-                        <div class="product-info-area">
-                          <div class="product-brand-description two-line-text">
-                            <div class="product-name-wrapper">
-                              <span class="brand">HC Care</span>
-                              <span class="name">
+                      <div className="description fixed-elements">
+                        <div className="product-info-area">
+                          <div className="product-brand-description two-line-text">
+                            <div className="product-name-wrapper">
+                              <span className="brand">HC Care</span>
+                              <span className="name">
                                 Complex Bitkisel Saç Bakım Kompleksi - 100 ml
                               </span>
                             </div>
                           </div>
-                          <div class="ratings-container">
-                            <span class="ratings-score">4.6</span>
-                            <div class="ratings">
+                          <div className="ratings-container">
+                            <span className="ratings-score">4.6</span>
+                            <div className="ratings">
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
-                              <span class="ratingCount">(45630)</span>
+                              <span className="ratingCount">(45630)</span>
                             </div>
                           </div>
                         </div>
 
                         <div className="price-wrapper">
-                          <div class="lowest-price-section">
-                            <div class="low-price-in-last-month with-basket"></div>
+                          <div className="lowest-price-section">
+                            <div className="low-price-in-last-month with-basket"></div>
                           </div>
-                          <div class="price-container">
-                            <div class="price-box discounted">439 TL</div>
+                          <div className="price-container">
+                            <div className="price-box discounted">439 TL</div>
                           </div>
                         </div>
-                        <div class="badges">
-                          <div class="promotion-badge">
+                        <div className="badges">
+                          <div className="promotion-badge">
                             <img
-                              class="promotion-icon"
+                              className="promotion-icon"
                               src="https://cdn.dsmcdn.com/web/production/campaign-product-promotion-icon.svg"
                               alt="icon"
                             />
 
-                            <span class="promotion-text">4 Al 3 Öde</span>
+                            <span className="promotion-text">4 Al 3 Öde</span>
                           </div>
                         </div>
                       </div>
@@ -960,58 +960,58 @@ const Sale = () => {
                             </div>
                           </div>
                         </div>
-                        <div class="pr-rc-top-ranking-badge">
+                        <div className="pr-rc-top-ranking-badge">
                           <img
                             alt="en iyi sıralama rozeti"
                             src="https://cdn.dsmcdn.com/web/production/category-top-ranking-icon.svg"
                             width="8"
                             height="12"
                           />
-                          <span class="top-ranking-text">
+                          <span className="top-ranking-text">
                             En Çok Ziyaret Edilen 1. Ürün
                           </span>
                         </div>
                       </div>
-                      <div class="description fixed-elements">
-                        <div class="product-info-area">
-                          <div class="product-brand-description two-line-text">
-                            <div class="product-name-wrapper">
-                              <span class="brand">HC Care</span>
-                              <span class="name">
+                      <div className="description fixed-elements">
+                        <div className="product-info-area">
+                          <div className="product-brand-description two-line-text">
+                            <div className="product-name-wrapper">
+                              <span className="brand">HC Care</span>
+                              <span className="name">
                                 Complex Bitkisel Saç Bakım Kompleksi - 100 ml
                               </span>
                             </div>
                           </div>
-                          <div class="ratings-container">
-                            <span class="ratings-score">4.6</span>
-                            <div class="ratings">
+                          <div className="ratings-container">
+                            <span className="ratings-score">4.6</span>
+                            <div className="ratings">
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
-                              <span class="ratingCount">(45630)</span>
+                              <span className="ratingCount">(45630)</span>
                             </div>
                           </div>
                         </div>
 
                         <div className="price-wrapper">
-                          <div class="lowest-price-section">
-                            <div class="low-price-in-last-month with-basket"></div>
+                          <div className="lowest-price-section">
+                            <div className="low-price-in-last-month with-basket"></div>
                           </div>
-                          <div class="price-container">
-                            <div class="price-box discounted">439 TL</div>
+                          <div className="price-container">
+                            <div className="price-box discounted">439 TL</div>
                           </div>
                         </div>
-                        <div class="badges">
-                          <div class="promotion-badge">
+                        <div className="badges">
+                          <div className="promotion-badge">
                             <img
-                              class="promotion-icon"
+                              className="promotion-icon"
                               src="https://cdn.dsmcdn.com/web/production/campaign-product-promotion-icon.svg"
                               alt="icon"
                             />
 
-                            <span class="promotion-text">4 Al 3 Öde</span>
+                            <span className="promotion-text">4 Al 3 Öde</span>
                           </div>
                         </div>
                       </div>
@@ -1040,58 +1040,58 @@ const Sale = () => {
                             </div>
                           </div>
                         </div>
-                        <div class="pr-rc-top-ranking-badge">
+                        <div className="pr-rc-top-ranking-badge">
                           <img
                             alt="en iyi sıralama rozeti"
                             src="https://cdn.dsmcdn.com/web/production/category-top-ranking-icon.svg"
                             width="8"
                             height="12"
                           />
-                          <span class="top-ranking-text">
+                          <span className="top-ranking-text">
                             En Çok Ziyaret Edilen 1. Ürün
                           </span>
                         </div>
                       </div>
-                      <div class="description fixed-elements">
-                        <div class="product-info-area">
-                          <div class="product-brand-description two-line-text">
-                            <div class="product-name-wrapper">
-                              <span class="brand">HC Care</span>
-                              <span class="name">
+                      <div className="description fixed-elements">
+                        <div className="product-info-area">
+                          <div className="product-brand-description two-line-text">
+                            <div className="product-name-wrapper">
+                              <span className="brand">HC Care</span>
+                              <span className="name">
                                 Complex Bitkisel Saç Bakım Kompleksi - 100 ml
                               </span>
                             </div>
                           </div>
-                          <div class="ratings-container">
-                            <span class="ratings-score">4.6</span>
-                            <div class="ratings">
+                          <div className="ratings-container">
+                            <span className="ratings-score">4.6</span>
+                            <div className="ratings">
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
-                              <span class="ratingCount">(45630)</span>
+                              <span className="ratingCount">(45630)</span>
                             </div>
                           </div>
                         </div>
 
                         <div className="price-wrapper">
-                          <div class="lowest-price-section">
-                            <div class="low-price-in-last-month with-basket"></div>
+                          <div className="lowest-price-section">
+                            <div className="low-price-in-last-month with-basket"></div>
                           </div>
-                          <div class="price-container">
-                            <div class="price-box discounted">439 TL</div>
+                          <div className="price-container">
+                            <div className="price-box discounted">439 TL</div>
                           </div>
                         </div>
-                        <div class="badges">
-                          <div class="promotion-badge">
+                        <div className="badges">
+                          <div className="promotion-badge">
                             <img
-                              class="promotion-icon"
+                              className="promotion-icon"
                               src="https://cdn.dsmcdn.com/web/production/campaign-product-promotion-icon.svg"
                               alt="icon"
                             />
 
-                            <span class="promotion-text">4 Al 3 Öde</span>
+                            <span className="promotion-text">4 Al 3 Öde</span>
                           </div>
                         </div>
                       </div>
@@ -1120,58 +1120,58 @@ const Sale = () => {
                             </div>
                           </div>
                         </div>
-                        <div class="pr-rc-top-ranking-badge">
+                        <div className="pr-rc-top-ranking-badge">
                           <img
                             alt="en iyi sıralama rozeti"
                             src="https://cdn.dsmcdn.com/web/production/category-top-ranking-icon.svg"
                             width="8"
                             height="12"
                           />
-                          <span class="top-ranking-text">
+                          <span className="top-ranking-text">
                             En Çok Ziyaret Edilen 1. Ürün
                           </span>
                         </div>
                       </div>
-                      <div class="description fixed-elements">
-                        <div class="product-info-area">
-                          <div class="product-brand-description two-line-text">
-                            <div class="product-name-wrapper">
-                              <span class="brand">HC Care</span>
-                              <span class="name">
+                      <div className="description fixed-elements">
+                        <div className="product-info-area">
+                          <div className="product-brand-description two-line-text">
+                            <div className="product-name-wrapper">
+                              <span className="brand">HC Care</span>
+                              <span className="name">
                                 Complex Bitkisel Saç Bakım Kompleksi - 100 ml
                               </span>
                             </div>
                           </div>
-                          <div class="ratings-container">
-                            <span class="ratings-score">4.6</span>
-                            <div class="ratings">
+                          <div className="ratings-container">
+                            <span className="ratings-score">4.6</span>
+                            <div className="ratings">
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
                               <FaStar />
-                              <span class="ratingCount">(45630)</span>
+                              <span className="ratingCount">(45630)</span>
                             </div>
                           </div>
                         </div>
 
                         <div className="price-wrapper">
-                          <div class="lowest-price-section">
-                            <div class="low-price-in-last-month with-basket"></div>
+                          <div className="lowest-price-section">
+                            <div className="low-price-in-last-month with-basket"></div>
                           </div>
-                          <div class="price-container">
-                            <div class="price-box discounted">439 TL</div>
+                          <div className="price-container">
+                            <div className="price-box discounted">439 TL</div>
                           </div>
                         </div>
-                        <div class="badges">
-                          <div class="promotion-badge">
+                        <div className="badges">
+                          <div className="promotion-badge">
                             <img
-                              class="promotion-icon"
+                              className="promotion-icon"
                               src="https://cdn.dsmcdn.com/web/production/campaign-product-promotion-icon.svg"
                               alt="icon"
                             />
 
-                            <span class="promotion-text">4 Al 3 Öde</span>
+                            <span className="promotion-text">4 Al 3 Öde</span>
                           </div>
                         </div>
                       </div>

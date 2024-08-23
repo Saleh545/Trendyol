@@ -59,8 +59,8 @@ const Header = () => {
                 </div>
                 <div className="new-login-dropdown">
                   <div className="user-notloggedin-container container-padding">
-                    <div class="login-button">Giriş Yap</div>
-                    <div class="signup-button signup-button-container">
+                    <div className="login-button">Giriş Yap</div>
+                    <div className="signup-button signup-button-container">
                       Üye Ol
                     </div>
                   </div>
@@ -69,13 +69,13 @@ const Header = () => {
               <NavLink className="account-nav-item account-favorites">
                 <div className="link">
                   <CiHeart className="initial-icon" />
-                  <p class="link-text">Favorilerim</p>
+                  <p className="link-text">Favorilerim</p>
                 </div>
               </NavLink>
-              <div class="account-nav-item basket-preview">
+              <div className="account-nav-item basket-preview">
                 <NavLink className="link account-basket">
                   <SlBasket />
-                  <p class="link-text">Sepetim</p>
+                  <p className="link-text">Sepetim</p>
                 </NavLink>
               </div>
             </div>
@@ -114,10 +114,10 @@ const Header = () => {
       <NavLink className="category-header navbar-first-cap">Spor&Outdoor</NavLink>
     </li>
     <li className="tab-link">
-      <NavLink className="category-header navbar-first-cap">Çok Satanlar <span class="new-badge">Yeni</span></NavLink>
+      <NavLink className="category-header navbar-first-cap">Çok Satanlar <span className="new-badge">Yeni</span></NavLink>
     </li>
     <li className="tab-link">
-      <NavLink className="category-header navbar-first-cap">Flaş Ürünler <span class="new-badge">Yeni</span></NavLink>
+      <NavLink className="category-header navbar-first-cap">Flaş Ürünler <span className="new-badge">Yeni</span></NavLink>
     </li>
   </ul>
 </nav>
