@@ -11,13 +11,13 @@
 @import "../components/popular/popular.scss";
 
 //flas
- @import "../components/flas/flas.scss";
+@import "../components/flas/flas.scss";
 
- //popular categories
- @import "../components/popular\ categories//popularCategories.scss";
+//popular categories
+@import "../components/popular\ categories//popularCategories.scss";
 
- //sale
- @import "../components/sale/sale.scss";
+//sale
+@import "../components/sale/sale.scss";
 
 //cards
 @import "../components/cards/cards.scss";
@@ -38,4 +38,26 @@
 @import "../components/similar/similar.scss";
 
 //cross
-@import "../components/cross/cross.scss"
+@import "../components/cross/cross.scss";
+
+//ratings
+@import "../components//ratings/ratings.scss";
+
+//details
+@import "../components/details/details.scss";
+
+//collection
+@import "../components/collection/collection.scss";
+
+//basket
+@import "../pages/basket/basket.scss";
+
+//favorites
+@import "../pages/favorites/favorites.scss";
+
+//login
+@import "../pages/login/login.scss";
+
+//signup
+@import "../pages/signup/signup.scss";
+

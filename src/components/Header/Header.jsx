@@ -59,24 +59,22 @@ const Header = () => {
                 </div>
                 <div className="new-login-dropdown">
                   <div className="user-notloggedin-container container-padding">
-                    <div className="login-button">Giriş Yap</div>
-                    <div className="signup-button signup-button-container">
-                      Üye Ol
-                    </div>
+                    <Link to="/login" className="login-button">Giriş Yap</Link>
+                    <Link className="signup-button signup-button-container">Üye Ol</Link>
                   </div>
                 </div>
               </div>
-              <NavLink className="account-nav-item account-favorites">
+              <Link className="account-nav-item account-favorites" to="/favorites">
                 <div className="link">
                   <CiHeart className="initial-icon" />
                   <p className="link-text">Favorilerim</p>
                 </div>
-              </NavLink>
+              </Link>
               <div className="account-nav-item basket-preview">
-                <NavLink className="link account-basket">
+                <Link className="link account-basket" to="/basket">
                   <SlBasket />
                   <p className="link-text">Sepetim</p>
-                </NavLink>
+                </Link>
               </div>
             </div>
           </div>
@@ -114,10 +112,10 @@ const Header = () => {
       <NavLink className="category-header navbar-first-cap">Spor&Outdoor</NavLink>
     </li>
     <li className="tab-link">
-      <NavLink className="category-header navbar-first-cap">Çok Satanlar <span className="new-badge">Yeni</span></NavLink>
+      <NavLink className="category-header navbar-first-cap">Çok Satanlar <span className="new-badge"></span></NavLink>
     </li>
     <li className="tab-link">
-      <NavLink className="category-header navbar-first-cap">Flaş Ürünler <span className="new-badge">Yeni</span></NavLink>
+      <NavLink className="category-header navbar-first-cap">Flaş Ürünler <span className="new-badge"></span></NavLink>
     </li>
   </ul>
 </nav>

@@ -1,76 +1,80 @@
 import React, { useEffect, useState } from "react";
+import axios from "axios";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 import { FaBox, FaStar } from "react-icons/fa";
-import axios from "axios";
 
+const settings = {
+  infinite: true,
+  slidesToShow: 5,
+  slidesToScroll: 5,
+  speed: 900,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 5,
+        slidesToScroll: 5,
+        infinite: true,
+      },
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+      },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      },
+    },
+  ],
+};
 
 const Similar = () => {
-    
-const settings = {
-    infinite: true,
-    slidesToShow: 5,
-    slidesToScroll: 5,
-    speed: 900,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 5,
-          slidesToScroll: 5,
-          infinite: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
-  
-    const [products, setProducts] = useState([]);
-  
-    useEffect(() => {
-      const fetchProducts = async () => {
-        try {
-          const response = await axios.get("https://api.escuelajs.co/api/v1/products");
-          setProducts(response.data);
-        } catch (error) {
-          console.error("Error fetching products:", error);
-        }
-      };
-  
-      fetchProducts();
-    }, []);
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const response = await axios.get("https://dummyjson.com/products");
+        setProducts(response.data.products); // API yanıtındaki 'products' dizisini al
+      } catch (error) {
+        console.error("Error fetching products:", error);
+      }
+    };
+
+    fetchProducts();
+  }, []);
+
   return (
     <div>
-        <div className="pr-rcs-w productDetail-Similar">
-            <div className="container">
-                <div className="pr-rcs-tl title">
-                    <h3>Benzer Ürünler</h3>
-                </div>
-
-
-                <div className="component-item widget-width">
-        <div className="widget-container extended-container similar-background ">
+      <div className="component-item widget-width">
+        <div className="widget-container extended-container similar-background container">
           <div className="widget-gw-widget">
-             <div className="styles-module_sliderBase__swkx1 product-slider">
+            <div className="widget-header">
+              <span className="colorfull">Benzer Ürünler</span>
+              <div className="widget-header-navigation">
+                <Link
+                  className="colorful"
+                  to="/sanaozel/1?versionKey=singleProducts_JFY_Original_Woman_Deng"
+                >
+                  Tümünü Gör <MdKeyboardArrowRight />
+                </Link>
+              </div>
+            </div>
+
+            <div className="styles-module_sliderBase__swkx1 product-slider">
               <div className="styles-module_slider__o0fqa">
                 <div className="slider-container">
-                  <Slider {...settings} className="popular">
+                  <Slider {...settings} className="Similar">
                     {products.map((product) => (
                       <div key={product.id} className="widget-product">
                         <Link to={`/product/${product.id}`}>
@@ -106,21 +110,20 @@ const settings = {
                             <div className="product-info-area">
                               <div className="product-brand-description two-line-text">
                                 <div className="product-name-wrapper">
-                                  <span className="brand">Brand</span>
-                                  <span className="name">
-                                    {product.title}
-                                  </span>
+                                  <span className="brand">{product.brand}</span>
+                                  <span className="name">{product.title}</span>
                                 </div>
                               </div>
                               <div className="ratings-container">
-                                <span className="ratings-score">4.6</span>
+                                <span className="ratings-score">{product.rating}</span>
                                 <div className="ratings">
-                                  <FaStar />
-                                  <FaStar />
-                                  <FaStar />
-                                  <FaStar />
-                                  <FaStar />
-                                  <span className="ratingCount">(45630)</span>
+                                  {[...Array(5)].map((_, i) => (
+                                    <FaStar
+                                      key={i}
+                                      color={i < product.rating ? "#ffc107" : "#e4e5e9"}
+                                    />
+                                  ))}
+                                  <span className="ratingCount">({product.stock})</span>
                                 </div>
                               </div>
                             </div>
@@ -138,7 +141,9 @@ const settings = {
                                   src="https://cdn.dsmcdn.com/web/production/campaign-product-promotion-icon.svg"
                                   alt="icon"
                                 />
-                                <span className="promotion-text">4 Al 3 Öde</span>
+                                <span className="promotion-text">
+                                  4 Al 3 Öde
+                                </span>
                               </div>
                             </div>
                           </div>
@@ -152,10 +157,8 @@ const settings = {
           </div>
         </div>
       </div>
-            </div>
-        </div>
     </div>
-  )
-}
+  );
+};
 
-export default Similar
+export default Similar;

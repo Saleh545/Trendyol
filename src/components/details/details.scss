@@ -1,0 +1,162 @@
+.details{
+
+.details-section {
+  .title {
+    height: 25px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    line-height: 26px;
+    color: #333;
+  }
+  .detail-border {
+    hr {
+        margin-top: 20px;
+        border: none;
+        border-top: 1px solid #e6e6e6;
+    }
+    padding: 20px 20px 30px;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px #0000000d;
+    border: solid 1px #e6e6e6;
+    background-color: #fff;
+
+    .flex-container {
+        
+      display: flex;
+      justify-content: space-between;
+      .detail-section-img {
+        max-width: 170px;
+        -ms-flex: 1 0 auto;
+        height: 247px;
+        border-radius: 6px;
+        margin-right: 30px;
+      }
+      .info-wrapper {
+        width: 963px;
+        .detail-name-container {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .detail-name {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 10px;
+          }
+          .report-abuse-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            height: 24px;
+            .i-warning-square {
+              margin-right: 8px;
+              color: #666;
+              font-size: 14px;
+            }
+            .report-abuse-text {
+              color: #666;
+              font-size: 12px;
+              white-space: nowrap;
+            }
+          }
+        }
+        .detail-desc-list.two-columns {
+          -webkit-column-count: 2;
+          -moz-column-count: 2;
+          column-count: 2;
+          li {
+            margin: 10px 20px 10px 0;
+            font-size: 14px;
+            color: #666;
+            word-wrap: break-word;
+            .product-description-market-place {
+                position: relative;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+            &:before {
+                content: "•";
+                color: #dadada;
+                font-size: 20px;
+                margin-right: 10px;
+                position: relative;
+                padding: 0;
+                top: 3px;
+                line-height: 1;
+            }
+          }
+        }
+      }
+      
+    }
+  }
+  .detail-attributes-title {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #333;
+}
+.detail-attr-container {
+    display: flex;
+    flex-wrap: wrap;
+    .detail-attr-item {
+        width: 46.6%;
+        margin: 10px 10px 10px 0;
+        padding: 0 14px 1px 15px;
+        border-radius: 6px;
+        box-shadow: 0 1px 4px #0000000d;
+        background-color: #fafafa;
+        min-height: 42px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .attr-name {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            display: inline-block;
+            vertical-align: top;
+        }
+        span {
+            font-size: 14px;
+            line-height: 2.5;
+            color: #333;
+        }
+    }
+    .detail-attr-item .attr-name {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+}
+.report-container {
+    border-radius: 6px;
+    border: solid 1px #e2e2e2;
+    background-color: #fff;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    box-shadow: 0 1px 4px #0000000d;
+    .report-content {
+        display: flex;
+        align-items: center;
+        width: 200px;
+        height: 40px;
+        margin: 0 auto;
+        justify-content: center;
+        cursor: pointer;
+        .i-warning-square {
+            margin-right: 10px;
+            color: #333;
+            font-size: 18px;
+        }   
+        .report-abuse-button {
+            color: #333;
+            font-size: 14px;
+            text-transform: uppercase;
+        } }
+}
+}

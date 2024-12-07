@@ -1,0 +1,226 @@
+#login-register {
+    width: 415px;
+    margin: 20px auto 20px;
+    .lr-title {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        color: #333333;
+         h1 {
+            font-size: 22px;
+            line-height: 28px;
+        }
+     h3 {
+            font-size: 16px;
+            line-height: 21px;
+            margin-bottom: 20px;
+            width: 460px !important;
+        }
+    }
+    .lr-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0;
+        .flex-center {
+            display: flex;
+            justify-content: center;
+            height: 100%;
+            align-items: flex-end;
+            
+           .button {
+                width: 100% !important;
+                height: 48px !important;
+                color: #333333 ;
+                background-color: #f2f2f2;
+                border-radius: 3px 3px 0 0;
+                border: none;
+                border-bottom: none;
+                display: inline-flex !important;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                font-size: 16px;
+                margin-right: 5px;
+                padding: 0 10px;
+            }
+            .active {
+                color: #f27a1a !important ;
+                background-color: #fff !important;
+                border: 1px solid #e6e6e6;
+                border-bottom: 0;
+            }   
+        }
+    }
+    .lr-container {
+        border: 1px solid #e6e6e6;
+        border-top: 0;
+        padding: 40px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        .login {
+            padding: 0;
+            background-color: #fff;
+       
+
+            .q-input-wrapper {
+                display: block;
+                text-align: left;
+                width: 100%;
+            
+                .q-label {
+                    display: block;
+                    font-weight: 600;
+                    font-size: 14px;
+                    line-height: 18px;
+                    padding: 0;
+                    color: #333;
+                    margin-bottom: 10px;
+                
+                }
+                .q-input {
+                    background-color: #ebebeb;
+                    font-size: 14px;
+                    border: 1px solid #e6e6e6;
+                    width: inherit;
+                    border-radius: 3px;
+                    height: 40px;
+                    padding: 10px;
+                    color: #666;
+                    -webkit-appearance: none;
+                    width: 100% !important;
+                    border-radius: 3px !important;
+                    background-color: #fafafa !important;
+                }
+            }
+            .password-wrapper {
+                margin-bottom: 8px;
+            
+                .password {
+                    margin-top: 20px;
+                    display: flex;
+                    position: relative;
+                    align-items: center;
+                    justify-content: center;
+                    svg {
+                        position: absolute;
+                        right: 0;
+                        bottom: 0;
+                        cursor: pointer;
+                        color: #999999;
+                        font-size: 18px;
+                        margin-bottom: 10px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    
+    }
+    .forgot-password {
+        font-size: 14px;
+        text-align: end;
+    
+        a {
+            color: #333333;
+            text-decoration: underline;
+            transition: all 0.3s ease;
+        }
+    }
+    .q-primary {
+         background-color: #f27a1a;
+         color: #fff;
+         border: 1px solid #f27a1a;
+         width: 100%;
+         height: 44px;
+         font-size: 16px;
+         border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+     }
+     .social-account-login-buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    
+        .social-login-button {
+            background-color: #fff;
+            font-size: 14px;
+            border-radius: 6px;
+            border: solid 1px #e6e6e6;
+            padding: 8px 10px;
+            align-items: flex-start;
+            align-self: flex-start;
+            line-height: 14px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+            display: flex;
+            &:first-child {
+                margin-right: 15px;
+            }
+            small {
+                font-size: 12px;
+                color: #999999;
+            }
+        
+            .social-login-icon {
+                margin-right: 15px;
+                width: 30px;
+                height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #fff;
+                border-radius: 4px;
+            }
+            .fb{
+                background-color: rgb(76, 110, 168);
+                
+        }
+    .google{
+        background-color: rgb(241, 66, 54);
+    }}}
+    
+    .guest-user-track-orders {
+        display: flex;
+        justify-content: center;
+        color: #666;
+        margin-top: 20px;
+        font-size: 12px;
+        line-height: 16px;
+    
+        .clickable-text {
+            color: #666;
+            text-decoration: underline;
+            font-weight: 600;
+            margin-left: 2.5px;
+            cursor: pointer;
+        }}
+        .new-co-privacy-statement-for-ty-checkbox {
+            margin-top: 15px;
+            cursor: pointer;
+            .ty-flex-column {
+                flex-direction: column;
+                font-size: 12px;
+                line-height: 16px;
+                color: #333;
+                display: flex;
+            }
+            .ty-checkbox-wrapper {
+                align-items: center;
+                cursor: pointer;
+            display: flex;
+            }
+            .ty-checkbox-container {
+                width: 20px;
+                height: 20px;
+                margin-bottom: 7px !important;
+                margin-right: 10px !important;
+            }}}

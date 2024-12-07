@@ -11,10 +11,7 @@ import Header from "../../components/Header/Header";
 import Footer from "../../components/footer/Footer";
 import endirim from "../../assets/images/endirim.png";
 import camera from "../../assets/images/camera.png";
-import {
-  MdKeyboardArrowRight,
-  MdOutlineKeyboardArrowRight,
-} from "react-icons/md";
+import {MdKeyboardArrowRight,MdOutlineKeyboardArrowRight,} from "react-icons/md";
 import { FaBox, FaInfoCircle, FaRegHeart, FaStar } from "react-icons/fa";
 import { TbTruckDelivery } from "react-icons/tb";
 import { FaLocationDot } from "react-icons/fa6";
@@ -22,17 +19,31 @@ import { TfiGift } from "react-icons/tfi";
 import { LiaCommentDotsSolid } from "react-icons/lia";
 import Similar from "../../components/similar/Similar";
 import Cross from "../../components/cross/Cross";
+import { useBasket,useFavorites  } from "../../context/BasketContext";
+import Ratings from "../../components/ratings/Ratings";
+import Details from "../../components/details/Details";
+import Collection from "../../components/collection/Collection";
+import FirstSlider from "../../components/firstSlider/FirstSlider";
+import Boutique from "../../components/boutique/Boutique";
 
 const Product = () => {
   const { id } = useParams();
-  const [product, setProduct] = useState(null);
   const [thumbsSwiper, setThumbsSwiper] = useState(null);
+  const { addToBasket } = useBasket();
+  const [isAddedToBasket, setIsAddedToBasket] = useState(false);
+  const [buttonText, setButtonText] = useState("Sepete Ekle");
+  const { addToFavorites } = useFavorites();
+  const [product, setProduct] = useState(null);
+
+  const handleAddToFavorites = () => {
+    addToFavorites(product);
+  };
 
   useEffect(() => {
     const fetchProduct = async () => {
       try {
         const response = await axios.get(
-          `https://api.escuelajs.co/api/v1/products/${id}`
+          `https://dummyjson.com/products/${id}`
         );
         setProduct(response.data);
       } catch (error) {
@@ -44,6 +55,19 @@ const Product = () => {
   }, [id]);
 
   if (!product) return <></>;
+
+  const handleAddToBasket = () => {
+    addToBasket(product);
+    setIsAddedToBasket(true);
+    
+    setTimeout(() => {
+      setIsAddedToBasket(false);
+      setButtonText("Sepete Ekle");
+    }, 2000);
+
+  };
+
+
 
   return (
     <div className="">
@@ -85,7 +109,7 @@ const Product = () => {
                     <img
                       src={image}
                       alt={product.title}
-                      className="w-full h-auto"
+                      
                     />
                   </SwiperSlide>
                 ))}
@@ -159,12 +183,13 @@ const Product = () => {
                       </div>
                     </div>
                     <div className="product-button-container">
-                      <button component-id="1" className="add-to-basket">
-                        <div className="add-to-basket-button-text">
-                          Sepete Ekle
-                        </div>
-                      </button>
-                      <button className="fv">
+                      
+                    <button component-id="1" className={`add-to-basket ${isAddedToBasket ? "added" : ""}`} onClick={handleAddToBasket} >
+      <div className="add-to-basket-button-text">
+        {isAddedToBasket ? "Sepete Eklendi" : "Sepete Ekle"}
+      </div>
+    </button>
+                      <button className="fv"  onClick={handleAddToFavorites}>
                         <FaRegHeart />
                       </button>
                     </div>
@@ -208,13 +233,12 @@ const Product = () => {
                       <div className="content-descriptions" data-drroot="content-descriptions">
                         <ul id="content-descriptions-list">
                     <li><span className="ellipse"></span> Ürün beden tablosunu görüntülemek için <Link data-sizechart-href="@customSizeChart[1]"  className="product-description-link">tıklayın</Link></li>     
-                    <li class="market-place-wrapper">
-                      <span class="ellipse"></span>
-                      <span>Bu ürün<span class="product-description-market-place"> Global-Pazar</span> tarafından gönderilecektir.</span>
+                    <li className="market-place-wrapper">
+                      <span className="ellipse"></span>
+                      <span>Bu ürün<span className="product-description-market-place"> Global-Pazar</span> tarafından gönderilecektir.</span>
                       </li> 
-                      <li><span class="ellipse"></span>Kampanya fiyatından satılmak üzere 50 adetten fazla stok sunulmuştur.
-</li>
-<li><span className="ellipse"></span>Bir ürün, birden fazla satıcı tarafından satılabilir. Birden fazla satıcı tarafından satışa sunulan ürünlerin satıcıları ürün için belirledikleri fiyata, satıcı puanlarına, teslimat statülerine, ürünlerdeki promosyonlara, kargonun bedava olup olmamasına ve ürünlerin hızlı teslimat ile teslim edilip edilememesine, ürünlerin stok ve kategorileri bilgilerine göre sıralanmaktadır.</li>
+                      <li><span className="ellipse"></span>Kampanya fiyatından satılmak üzere 50 adetten fazla stok sunulmuştur.</li>
+                      <li><span className="ellipse"></span>Bir ürün, birden fazla satıcı tarafından satılabilir. Birden fazla satıcı tarafından satışa sunulan ürünlerin satıcıları ürün için belirledikleri fiyata, satıcı puanlarına, teslimat statülerine, ürünlerdeki promosyonlara, kargonun bedava olup olmamasına ve ürünlerin hızlı teslimat ile teslim edilip edilememesine, ürünlerin stok ve kategorileri bilgilerine göre sıralanmaktadır.</li>
                         </ul>
                       </div>
                     </div>
@@ -324,6 +348,11 @@ const Product = () => {
       </div>
       <Similar/>
 <Cross/>
+<Ratings/>
+<Details/>
+<Collection/>
+<FirstSlider/>
+<Boutique/>
       <Footer />
     </div>
   );

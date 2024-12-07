@@ -44,8 +44,9 @@ const Popular = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const response = await axios.get("https://api.escuelajs.co/api/v1/products");
-        setProducts(response.data);
+        const response = await axios.get("https://dummyjson.com/products");
+        setProducts(response.data.products); 
+        console.log(products)
       } catch (error) {
         console.error("Error fetching products:", error);
       }
@@ -82,7 +83,7 @@ const Popular = () => {
                             <img
                               alt={product.title}
                               className="p-card-img"
-                              src={product.images[0]} // İlk resmi gösteriyoruz
+                              src={product.images[0]}
                             />
                             <div className="product-stamps">
                               <div className="stamp-box-wrapper enhanced">
@@ -110,21 +111,20 @@ const Popular = () => {
                             <div className="product-info-area">
                               <div className="product-brand-description two-line-text">
                                 <div className="product-name-wrapper">
-                                  <span className="brand">Brand</span>
-                                  <span className="name">
-                                    {product.title}
-                                  </span>
+                                  <span className="brand">{product.brand}</span>
+                                  <span className="name">{product.title}</span>
                                 </div>
                               </div>
                               <div className="ratings-container">
-                                <span className="ratings-score">4.6</span>
+                                <span className="ratings-score">{product.rating}</span>
                                 <div className="ratings">
-                                  <FaStar />
-                                  <FaStar />
-                                  <FaStar />
-                                  <FaStar />
-                                  <FaStar />
-                                  <span className="ratingCount">(45630)</span>
+                                  {[...Array(5)].map((_, i) => (
+                                    <FaStar
+                                      key={i}
+                                      color={i < product.rating ? "#ffc107" : "#e4e5e9"}
+                                    />
+                                  ))}
+                                  <span className="ratingCount">({product.stock})</span>
                                 </div>
                               </div>
                             </div>
@@ -142,7 +142,9 @@ const Popular = () => {
                                   src="https://cdn.dsmcdn.com/web/production/campaign-product-promotion-icon.svg"
                                   alt="icon"
                                 />
-                                <span className="promotion-text">4 Al 3 Öde</span>
+                                <span className="promotion-text">
+                                  4 Al 3 Öde
+                                </span>
                               </div>
                             </div>
                           </div>

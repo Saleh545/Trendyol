@@ -38,7 +38,7 @@ const settings = {
   ],
 };
 
-const Cross = () => {
+const FirstSlider = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -60,7 +60,8 @@ const Cross = () => {
         <div className="widget-container extended-container container similar-background">
           <div className="widget-gw-widget">
             <div className="widget-header">
-              <span className="colorfull">Bu Ürünü Alanlar Bunları da Aldı
+              <span className="colorfull">Sana Özel Spor Outdoor Ürünleri
+
 </span>
               <div className="widget-header-navigation">
                 <Link
@@ -75,7 +76,7 @@ const Cross = () => {
             <div className="styles-module_sliderBase__swkx1 product-slider">
               <div className="styles-module_slider__o0fqa">
                 <div className="slider-container">
-                  <Slider {...settings} className="Cross">
+                  <Slider {...settings} className="FirstSlider">
                     {products.map((product) => (
                       <div key={product.id} className="widget-product">
                         <Link to={`/product/${product.id}`}>
@@ -162,4 +163,4 @@ const Cross = () => {
   );
 };
 
-export default Cross;
+export default FirstSlider;
