@@ -80,13 +80,13 @@
             align-items: center;
             justify-content: space-between;
             .pb-merchant-info {
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
               .checkboxc {
                 font-size: 22px;
                 color: #f27a1a;
               }
-              display: flex;
-              align-items: center;
-              justify-content: space-between;
               .merchant-label {
                 color: #999999;
                 font-size: 14px;

@@ -15,9 +15,6 @@
         margin-left: 24px;
     }
     .collection {
-        &:hover {
-            box-shadow: 0 1px 4px 2px #00000014;
-        }
         width: 340px;
         height: 256px;
         box-sizing: border-box;
@@ -31,6 +28,9 @@
         cursor: pointer;
         transition: .2s box-shadow;
         margin-left: 24px;
+        &:hover {
+            box-shadow: 0 1px 4px 2px #00000014;
+        }
         .collection-header {
             display: flex;
             column-gap: 4px;
